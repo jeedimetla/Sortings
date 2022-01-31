@@ -1,8 +1,8 @@
 class Sorting:
 
-    # order of N^2
-    # Stable
-    # Inplace
+    # order of N^2 - Always (Worst , Best)
+    # Stable - We are swaping only in case nums[i] is greater than nums[j] only
+    # Inplace - No new Array is used
     @staticmethod
     def bubble_sort(nums):
 
